@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Calculator {
     private static final List<NewArithmeticOperator> arithmeticOperators = List.of(new AdditionOperator(), new SubtractionOperator(), new DivisionOperator(), new MultiplicationOperator());
-    public static int calculate(int operand1, String operator, int operand2) {
+    public static int calculate(PositiveNumber operand1, String operator, PositiveNumber operand2) {
 //        1. 각 연사자 별로 나눠서 작성
 //        if ("+".equals(operator)) {
 //            return operand1 + operand2;
